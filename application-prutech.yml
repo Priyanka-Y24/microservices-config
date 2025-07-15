@@ -1,0 +1,19 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+      
+client:
+  csb:
+    key: PRUTECH_ACCESS_TOKEN
+    client-id: your-client-id
+    client-secret: your-client-secret
+    auth-url: https://api.prutech.in/oauth/token
+    token-key: PRUTECH_ACCESS_TOKEN
+
+  saraswat:
+    key: PRUTECH_ACCESS_TOKEN2
+    client-id: your-client-id2
+    client-secret: your-client-secret
+    auth-url: https://api.prutech.in/oauth/token
+    token-key: PRUTECH_ACCESS_TOKEN2
