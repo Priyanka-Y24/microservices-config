@@ -1,0 +1,16 @@
+
+
+client:
+  csb:
+    key: KALEYRA_TOKEN1
+    client-id: your-client-id
+    client-secret: your-client-secret
+    auth-url: https://api.kaleyra.in/oauth/token
+    token-key: KALEYRA_TOKEN_
+
+  saraswat:
+    key: KALEYRA_TOKEN
+    client-id: your-client-id
+    client-secret: your-client-secret
+    auth-url: https://api.kaleyra.in/oauth/token
+    token-key: KALEYRA_TOKEN2
