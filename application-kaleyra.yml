@@ -1,16 +1,9 @@
-
-
-client:
-  csb:
-    key: KALEYRA_TOKEN1
-    client-id: your-client-id
-    client-secret: your-client-secret
-    auth-url: https://api.kaleyra.in/oauth/token
-    token-key: KALEYRA_TOKEN_
-
-  saraswat:
-    key: KALEYRA_TOKEN
-    client-id: your-client-id
-    client-secret: your-client-secret
-    auth-url: https://api.kaleyra.in/oauth/token
-    token-key: KALEYRA_TOKEN2
+config:
+ client:
+   csb:
+     auth:
+       api-key: "sdfkj"
+       send-url: "https://sdfjg"
+     pull-status:
+       url: "https://pull.status"
+     callback-profile-id: "325985djg_gfm"
