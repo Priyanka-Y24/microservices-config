@@ -2,8 +2,8 @@ config:
  client:
    csb:
      auth:
-       api-key: "sdfkj"
-       send-url: "https://sdfjg"
+       api-key: abc-key
+       send-url: https://abc.com
      pull-status:
-       url: "https://pull.status"
-     callback-profile-id: "325985djg_gfm"
+       url: https://abc.com
+     callback-profile-id: abc123
